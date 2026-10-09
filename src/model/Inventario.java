@@ -23,7 +23,7 @@ public class Inventario {
         return new ArrayList<>(items);
     }
 
-    // Copia profunda: la nueva instancia tiene su propia lista interna.
+
     public Inventario copiar() {
         return new Inventario(this.items);
     }

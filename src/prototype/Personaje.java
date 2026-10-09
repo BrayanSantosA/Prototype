@@ -30,7 +30,7 @@ public class Personaje {
         return inventario;
     }
 
-    // El personaje sabe clonarse: el inventario se copia en profundidad.
+  
     public Personaje clonar() {
         return new Personaje(this.nombre, this.clase, this.inventario.copiar());
     }
